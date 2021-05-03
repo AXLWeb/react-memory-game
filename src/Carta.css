@@ -1,0 +1,46 @@
+.carta {
+  width: 125px;
+  height: 125px;
+}
+
+.sel{
+  border: 3px solid #60ffaf;
+  padding: 15px;
+  border-radius: 50%;
+  animation: rotation 5s infinite;
+  animation: colorchange 3s infinite;
+}
+
+
+@keyframes colorchange
+{
+  0%   {border:3px solid  hsl(269, 85%, 66%);}
+  25%  {border:3px solid  hsl(157, 77%, 57%);}
+  50%   {border:3px solid  hsl(44, 85%, 66%);}
+  100% {border:3px solid hsl(359, 85%, 66%);}
+}
+
+@keyframes rotation {
+  25% {rotate: 25deg;}
+  50% {rotate: 50deg;}
+}
+
+.portada {
+  width: 125px;
+  height: 125px;
+  background-color: #ffb300;
+}
+
+.contenido {
+  width: 125px;
+  height: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(3, 220, 244);
+}
+
+.ReactFlipCard {
+  width: 100%;
+  height: 100%;
+}
